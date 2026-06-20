@@ -7,7 +7,6 @@ body
     color: #ffffff;
 }
 
-
 .header__box
 {
     width: 100%;
@@ -29,23 +28,104 @@ body
 {
     text-decoration: none;
     color: #ffffff;
-
     font-size: 40px;
     font-weight: 500;
-   
-    
 }
+
+.nav__text a:hover
+{
+    color: #add8e6;
+    transition: 0.3s;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 5px;
+}
+
 .mtext
 {
-    margin: auto;
-    padding: 100px;
+    margin: 0px;
     text-align: center;
-    
+    padding-top: 100px;  
 }
 
 .mtext h1
 {
     text-align: center;
-    font-size: 100px;
+    font-size: 150px;
+    margin: 0px;
 }
 
+.submain
+{
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.submain h3
+{
+    text-align: center;
+    font-size: 24px;
+    margin: 0px;
+}
+
+#shop
+{
+    background-color: #1a2238;
+    padding: 60px 0px;
+}
+
+.shop__box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+
+.shop__text
+{
+    flex: 1;
+}
+
+.main__shop
+{
+    margin: 0px 0px 15px 0px;
+    font-size: 36px;
+}
+
+.sub__shop
+{
+    margin: 0px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.photo
+{
+    flex: 1;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    border: 1px solid #add8e6;
+}
